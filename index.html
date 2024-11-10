@@ -1,173 +1,168 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Periódico Digital</title>
+    <title>The Daily Insight</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
-
   <body>
-    <!-- Encabezado -->
     <header>
-      <h1>Periódico Digital</h1>
-      <p>Las últimas noticias al alcance de tu mano</p>
+      <div class="header-container">
+        <a href="#" class="logo">Daily<span>Insight</span></a>
+        <nav>
+          <a href="#breaking">Breaking News</a>
+          <a href="#world">World</a>
+          <a href="#tech">Technology</a>
+          <a href="#science">Science</a>
+          <a href="#culture">Culture</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
     </header>
 
-    <!-- Navegación -->
-    <nav>
-      <a href="#noticias">Noticias</a>
-      <a href="#deportes">Deportes</a>
-      <a href="#cultura">Cultura</a>
-      <a href="#tecnologia">Tecnología</a>
-    </nav>
-
-    <!-- Sección Hero -->
     <section class="hero">
-      <div>
-        <h1>Las noticias más importantes del día</h1>
-        <p>Actualizado en tiempo real</p>
+      <img
+        src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+        alt="Hero Image"
+        class="hero-image"
+      />
+      <div class="hero-content">
+        <h1 class="hero-title">Discover Stories That Matter</h1>
+        <p class="hero-subtitle">
+          Stay informed with the latest news and in-depth analysis from around
+          the globe
+        </p>
       </div>
     </section>
 
-    <!-- Sección de Noticias -->
-    <section id="noticias" class="container">
-      <h2 class="section-title">Noticias Destacadas</h2>
-      <div class="news-grid">
-        <!-- Tarjeta de Noticia -->
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia 1</h3>
-            <p>
-              Breve descripción de la noticia. Aquí se destacan los puntos clave
-              de la historia.
-            </p>
-          </div>
-        </article>
-
-        <!-- Tarjeta de Noticia -->
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia 2</h3>
-            <p>
-              Breve descripción de la noticia. Aquí se destacan los puntos clave
-              de la historia.
-            </p>
-          </div>
-        </article>
-
-        <!-- Tarjeta de Noticia -->
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia 3</h3>
-            <p>
-              Breve descripción de la noticia. Aquí se destacan los puntos clave
-              de la historia.
-            </p>
-          </div>
-        </article>
+    <div class="container">
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search for news..."
+        />
+        <button class="search-btn" id="searchBtn">Search</button>
       </div>
-    </section>
 
-    <!-- Sección de Deportes -->
-    <section id="deportes" class="container">
-      <h2 class="section-title">Deportes</h2>
-      <div class="news-grid">
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia de Deportes</h3>
-            <p>Breve descripción de la noticia deportiva.</p>
-          </div>
-        </article>
-
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia de Deportes</h3>
-            <p>Breve descripción de la noticia deportiva.</p>
-          </div>
-        </article>
+      <div class="weather-widget" id="weatherWidget">
+        <h3>Local Weather</h3>
+        <div id="weatherContent">
+          <div class="loading-spinner"></div>
+        </div>
       </div>
-    </section>
 
-    <!-- Sección de Cultura -->
-    <section id="cultura" class="container">
-      <h2 class="section-title">Cultura</h2>
-      <div class="news-grid">
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia de Cultura</h3>
-            <p>Breve descripción de la noticia cultural.</p>
-          </div>
-        </article>
+      <section id="breaking">
+        <h2 class="section-title">Breaking News</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <img
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt="Tech News"
+            />
+            <div class="content">
+              <span class="news-category">Technology</span>
+              <h3>
+                Breakthrough in Quantum Computing Promises New Era of Technology
+              </h3>
+              <p>
+                Scientists achieve quantum supremacy, marking a major milestone
+                in computing history.
+              </p>
+              <div class="news-meta">
+                <span>5 min read</span>
+                <span>2 hours ago</span>
+              </div>
+            </div>
+          </article>
 
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia de Cultura</h3>
-            <p>Breve descripción de la noticia cultural.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+          <article class="news-card">
+            <img
+              src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt="Science News"
+            />
+            <div class="content">
+              <span class="news-category">Science</span>
+              <h3>New Discovery on Mars Suggests Ancient Life Possibilities</h3>
+              <p>
+                NASA's latest rover findings reveal organic compounds in Martian
+                soil.
+              </p>
+              <div class="news-meta">
+                <span>4 min read</span>
+                <span>3 hours ago</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <!-- Sección de Tecnología -->
-    <section id="tecnologia" class="container">
-      <h2 class="section-title">Tecnología</h2>
-      <div class="news-grid">
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia de Tecnología</h3>
-            <p>Breve descripción de la noticia tecnológica.</p>
-          </div>
-        </article>
+      <section id="world">
+        <h2 class="section-title">World News</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <img
+              src="https://images.unsplash.com/photo-1502920514313-52581002a659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt="World News"
+            />
+            <div class="content">
+              <span class="news-category">Politics</span>
+              <h3>Global Summit Addresses Climate Change Solutions</h3>
+              <p>World leaders unite to tackle environmental challenges.</p>
+              <div class="news-meta">
+                <span>6 min read</span>
+                <span>5 hours ago</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
 
-        <article class="news-card">
-          <img
-            src="https://via.placeholder.com/300x200"
-            alt="Imagen de noticia"
-          />
-          <div class="content">
-            <h3>Título de la Noticia de Tecnología</h3>
-            <p>Breve descripción de la noticia tecnológica.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- Pie de página -->
     <footer>
-      <p>&copy; 2024 Periódico Digital. Todos los derechos reservados.</p>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Culture</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Subscribe to Newsletter</h3>
+          <input
+            type="email"
+            class="newsletter-input"
+            placeholder="Enter your email"
+          />
+          <button class="newsletter-btn">Subscribe</button>
+        </div>
+      </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
