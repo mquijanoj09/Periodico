@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Daily Insight</title>
+    <title>El Diario Digital</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
@@ -17,13 +17,13 @@
   <body>
     <header>
       <div class="header-container">
-        <a href="#" class="logo">Daily<span>Insight</span></a>
+        <a href="#" class="logo">Diario<span>Digital</span></a>
         <nav>
-          <a href="#breaking">Breaking News</a>
-          <a href="#world">World</a>
-          <a href="#tech">Technology</a>
-          <a href="#science">Science</a>
-          <a href="#culture">Culture</a>
+          <a href="#breaking">Última Hora</a>
+          <a href="#world">Mundo</a>
+          <a href="#tech">Tecnología</a>
+          <a href="#science">Ciencia</a>
+          <a href="#culture">Cultura</a>
         </nav>
         <button class="theme-toggle" id="themeToggle">
           <i class="fas fa-moon"></i>
@@ -34,14 +34,14 @@
     <section class="hero">
       <img
         src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-        alt="Hero Image"
+        alt="Imagen Principal"
         class="hero-image"
       />
       <div class="hero-content">
-        <h1 class="hero-title">Discover Stories That Matter</h1>
+        <h1 class="hero-title">Descubre Historias que Importan</h1>
         <p class="hero-subtitle">
-          Stay informed with the latest news and in-depth analysis from around
-          the globe
+          Mantente informado con las últimas noticias y análisis profundos de
+          todo el mundo
         </p>
       </div>
     </section>
@@ -52,81 +52,67 @@
           type="text"
           id="searchInput"
           class="search-input"
-          placeholder="Search for news..."
+          placeholder="Buscar noticias..."
         />
-        <button class="search-btn" id="searchBtn">Search</button>
+        <button class="search-btn" id="searchBtn">Buscar</button>
       </div>
 
-      <div class="weather-widget" id="weatherWidget">
-        <h3>Local Weather</h3>
-        <div id="weatherContent">
-          <div class="loading-spinner"></div>
+      <div class="weather-widget">
+        <h3>Clima en Medellín</h3>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          <div>
+            <h2 style="margin-bottom: 0.5rem">Medellín, Colombia</h2>
+            <p style="font-size: 2rem; font-weight: bold">24°C</p>
+            <p>Parcialmente nublado</p>
+          </div>
+          <img
+            src="https://openweathermap.org/img/w/02d.png"
+            alt="Icono del clima"
+            style="width: 100px"
+          />
         </div>
       </div>
 
-      <section id="breaking">
-        <h2 class="section-title">Breaking News</h2>
-        <div class="news-grid">
-          <article class="news-card">
-            <img
-              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              alt="Tech News"
-            />
-            <div class="content">
-              <span class="news-category">Technology</span>
-              <h3>
-                Breakthrough in Quantum Computing Promises New Era of Technology
-              </h3>
-              <p>
-                Scientists achieve quantum supremacy, marking a major milestone
-                in computing history.
-              </p>
-              <div class="news-meta">
-                <span>5 min read</span>
-                <span>2 hours ago</span>
-              </div>
-            </div>
-          </article>
+      <div id="searchResults"></div>
 
-          <article class="news-card">
-            <img
-              src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              alt="Science News"
-            />
-            <div class="content">
-              <span class="news-category">Science</span>
-              <h3>New Discovery on Mars Suggests Ancient Life Possibilities</h3>
-              <p>
-                NASA's latest rover findings reveal organic compounds in Martian
-                soil.
-              </p>
-              <div class="news-meta">
-                <span>4 min read</span>
-                <span>3 hours ago</span>
-              </div>
-            </div>
-          </article>
+      <section id="breaking">
+        <h2 class="section-title">Última Hora</h2>
+        <div class="news-grid">
+          <!-- News cards will be dynamically inserted here -->
         </div>
       </section>
 
       <section id="world">
-        <h2 class="section-title">World News</h2>
+        <h2 class="section-title">Mundo</h2>
         <div class="news-grid">
-          <article class="news-card">
-            <img
-              src="https://images.unsplash.com/photo-1502920514313-52581002a659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              alt="World News"
-            />
-            <div class="content">
-              <span class="news-category">Politics</span>
-              <h3>Global Summit Addresses Climate Change Solutions</h3>
-              <p>World leaders unite to tackle environmental challenges.</p>
-              <div class="news-meta">
-                <span>6 min read</span>
-                <span>5 hours ago</span>
-              </div>
-            </div>
-          </article>
+          <!-- News cards will be dynamically inserted here -->
+        </div>
+      </section>
+
+      <section id="tech">
+        <h2 class="section-title">Tecnología</h2>
+        <div class="news-grid">
+          <!-- News cards will be dynamically inserted here -->
+        </div>
+      </section>
+
+      <section id="science">
+        <h2 class="section-title">Ciencia</h2>
+        <div class="news-grid">
+          <!-- News cards will be dynamically inserted here -->
+        </div>
+      </section>
+
+      <section id="culture">
+        <h2 class="section-title">Cultura</h2>
+        <div class="news-grid">
+          <!-- News cards will be dynamically inserted here -->
         </div>
       </section>
     </div>
@@ -134,31 +120,31 @@
     <footer>
       <div class="footer-content">
         <div class="footer-section">
-          <h3>About Us</h3>
+          <h3>Sobre Nosotros</h3>
           <ul>
-            <li><a href="#">Our Story</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Nuestra Historia</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Contacto</a></li>
           </ul>
         </div>
         <div class="footer-section">
-          <h3>Categories</h3>
+          <h3>Categorías</h3>
           <ul>
-            <li><a href="#">World</a></li>
-            <li><a href="#">Technology</a></li>
-            <li><a href="#">Science</a></li>
-            <li><a href="#">Culture</a></li>
+            <li><a href="#world">Mundo</a></li>
+            <li><a href="#tech">Tecnología</a></li>
+            <li><a href="#science">Ciencia</a></li>
+            <li><a href="#culture">Cultura</a></li>
           </ul>
         </div>
         <div class="footer-section">
-          <h3>Subscribe to Newsletter</h3>
+          <h3>Suscríbete al Boletín</h3>
           <input
             type="email"
             class="newsletter-input"
-            placeholder="Enter your email"
+            placeholder="Ingresa tu email"
           />
-          <button class="newsletter-btn">Subscribe</button>
+          <button class="newsletter-btn">Suscribirse</button>
         </div>
       </div>
     </footer>

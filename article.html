@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artículo - El Diario Digital</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="index.html" class="logo">Diario<span>Digital</span></a>
+        <nav>
+          <a href="index.html#breaking">Última Hora</a>
+          <a href="index.html#world">Mundo</a>
+          <a href="index.html#tech">Tecnología</a>
+          <a href="index.html#science">Ciencia</a>
+          <a href="index.html#culture">Cultura</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="container">
+      <article class="article-content">
+        <!-- Content will be dynamically inserted here -->
+      </article>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Sobre Nosotros</h3>
+          <ul>
+            <li><a href="#">Nuestra Historia</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Categorías</h3>
+          <ul>
+            <li><a href="index.html#world">Mundo</a></li>
+            <li><a href="index.html#tech">Tecnología</a></li>
+            <li><a href="index.html#science">Ciencia</a></li>
+            <li><a href="index.html#culture">Cultura</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Suscríbete al Boletín</h3>
+          <input
+            type="email"
+            class="newsletter-input"
+            placeholder="Ingresa tu email"
+          />
+          <button class="newsletter-btn">Suscribirse</button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="article.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

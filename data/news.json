@@ -1,0 +1,196 @@
+{
+  "breaking": [
+    {
+      "id": "quantum-computing",
+      "category": "Tecnología",
+      "title": "Avance en Computación Cuántica Promete Nueva Era Tecnológica",
+      "summary": "Científicos logran la supremacía cuántica, marcando un hito en la historia de la computación.",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+      "readTime": "5 min",
+      "publishedAt": "Hace 2 horas",
+      "author": "Juan Pérez",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En un avance histórico para la computación cuántica, científicos han logrado alcanzar la tan esperada supremacía cuántica, marcando un hito significativo en la historia de la tecnología. Este logro representa un paso crucial hacia una nueva era en el procesamiento de información."
+        },
+        {
+          "type": "paragraph",
+          "text": "El equipo de investigación, liderado por expertos de múltiples instituciones, ha desarrollado un procesador cuántico capaz de realizar cálculos que serían prácticamente imposibles para las supercomputadoras tradicionales más avanzadas."
+        },
+        {
+          "type": "quote",
+          "text": "Este es solo el comienzo. Las aplicaciones potenciales de esta tecnología son prácticamente ilimitadas.",
+          "author": "Dra. María González",
+          "role": "Líder del equipo de investigación"
+        },
+        {
+          "type": "heading",
+          "text": "Implicaciones para el Futuro"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Desarrollo de nuevos materiales",
+            "Optimización de procesos industriales",
+            "Investigación farmacéutica",
+            "Criptografía y seguridad digital",
+            "Modelado climático"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mars-discovery",
+      "category": "Ciencia",
+      "title": "Nuevo Descubrimiento en Marte Sugiere Posibilidad de Vida Antigua",
+      "summary": "Los últimos hallazgos del rover de la NASA revelan compuestos orgánicos en el suelo marciano.",
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7",
+      "readTime": "4 min",
+      "publishedAt": "Hace 3 horas",
+      "author": "Ana Martínez",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En un descubrimiento revolucionario, el rover Perseverance de la NASA ha identificado compuestos orgánicos complejos en el suelo marciano, fortaleciendo la hipótesis de que el planeta rojo pudo albergar vida en el pasado."
+        }
+      ]
+    }
+  ],
+  "world": [
+    {
+      "id": "climate-summit",
+      "category": "Mundo",
+      "title": "Cumbre Mundial Aborda Soluciones al Cambio Climático",
+      "summary": "Líderes mundiales se unen para enfrentar desafíos ambientales urgentes.",
+      "image": "https://images.unsplash.com/photo-1502920514313-52581002a659",
+      "readTime": "6 min",
+      "publishedAt": "Hace 5 horas",
+      "author": "Carlos Ruiz",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Representantes de más de 190 países se reúnen en la cumbre más importante sobre cambio climático de la década."
+        }
+      ]
+    },
+    {
+      "id": "peace-talks",
+      "category": "Mundo",
+      "title": "Avances en Conversaciones de Paz en Oriente Medio",
+      "summary": "Nuevos acuerdos prometen estabilidad en la región.",
+      "image": "https://images.unsplash.com/photo-1447069387593-a5de0862481e",
+      "readTime": "5 min",
+      "publishedAt": "Hace 6 horas",
+      "author": "Laura Sánchez",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Las negociaciones de paz alcanzan un punto crucial con nuevos compromisos de todas las partes involucradas."
+        }
+      ]
+    }
+  ],
+  "tech": [
+    {
+      "id": "ai-breakthrough",
+      "category": "Tecnología",
+      "title": "IA Logra Avance Significativo en Diagnóstico Médico",
+      "summary": "Nueva tecnología de inteligencia artificial supera a médicos en detección temprana.",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+      "readTime": "4 min",
+      "publishedAt": "Hace 4 horas",
+      "author": "Miguel Torres",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un sistema de IA desarrollado por investigadores españoles ha demostrado una precisión sin precedentes en el diagnóstico temprano de enfermedades."
+        }
+      ]
+    },
+    {
+      "id": "electric-cars",
+      "category": "Tecnología",
+      "title": "Revolución en Baterías de Coches Eléctricos",
+      "summary": "Nueva tecnología promete 1000 km de autonomía.",
+      "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7",
+      "readTime": "5 min",
+      "publishedAt": "Hace 7 horas",
+      "author": "Patricia López",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Una startup española revoluciona el mercado con una batería que triplica la autonomía actual de los vehículos eléctricos."
+        }
+      ]
+    }
+  ],
+  "science": [
+    {
+      "id": "cancer-cure",
+      "category": "Ciencia",
+      "title": "Prometedor Avance en la Lucha Contra el Cáncer",
+      "summary": "Nueva terapia muestra resultados extraordinarios en ensayos clínicos.",
+      "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557",
+      "readTime": "7 min",
+      "publishedAt": "Hace 8 horas",
+      "author": "Dr. Roberto Méndez",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Una innovadora terapia combinada logra resultados sin precedentes en el tratamiento de tipos agresivos de cáncer."
+        }
+      ]
+    },
+    {
+      "id": "ocean-discovery",
+      "category": "Ciencia",
+      "title": "Descubren Nueva Especie en las Profundidades Marinas",
+      "summary": "Expedición encuentra vida en condiciones extremas.",
+      "image": "https://images.unsplash.com/photo-1524698604136-5a02fb1f7ec9",
+      "readTime": "4 min",
+      "publishedAt": "Hace 9 horas",
+      "author": "Marina Gómez",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Científicos descubren una forma de vida única capaz de sobrevivir en condiciones extremas del océano profundo."
+        }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "id": "ancient-ruins",
+      "category": "Cultura",
+      "title": "Descubren Ciudad Maya Perdida en Guatemala",
+      "summary": "Arqueólogos revelan una metrópolis antigua de gran importancia.",
+      "image": "https://images.unsplash.com/photo-1590595906931-81f04f0ccebb",
+      "readTime": "6 min",
+      "publishedAt": "Hace 10 horas",
+      "author": "Diego Hernández",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El hallazgo promete revolucionar nuestra comprensión de la civilización maya."
+        }
+      ]
+    },
+    {
+      "id": "art-exhibition",
+      "category": "Cultura",
+      "title": "Nueva Exposición Revoluciona el Arte Digital",
+      "summary": "Artistas fusionan tecnología y tradición en exhibición innovadora.",
+      "image": "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8",
+      "readTime": "3 min",
+      "publishedAt": "Hace 11 horas",
+      "author": "Elena Vargas",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La exposición presenta obras que desafían los límites entre el arte tradicional y digital."
+        }
+      ]
+    }
+  ]
+}
